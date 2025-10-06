@@ -143,7 +143,7 @@ const Home = () => {
       {showPopup && (
         <div className="popup">
           <div className="popup-content">
-            <p>You have selected page: {getSelectedPages()}</p>
+            <p>You have selected page {getSelectedPages()}</p>
             <button className="close-button" onClick={() => setShowPopup(false)}>
               Close
             </button>
